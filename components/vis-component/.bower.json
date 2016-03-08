@@ -1,5 +1,6 @@
 {
   "name": "vis-component",
+  "version": "0.2.1",
   "authors": [
     "Thomas Herndlbauer"
   ],
@@ -21,21 +22,21 @@
     "/test/"
   ],
   "dependencies": {
-    "polymer": "~1.1.5",
-    "vis": "~4.9.0"
+    "polymer": "#^1.2.0",
+    "vis": "#^4.11.0"
   },
   "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.1.2",
     "web-component-tester": "*"
   },
-  "_release": "a8abeb4109",
+  "_release": "0.2.1",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "a8abeb410919cf3381b92dfd51a9b5277f77c8cb"
+    "type": "version",
+    "tag": "v0.2.1",
+    "commit": "54536451c3e6a55d495e5406121e5f326aea5e44"
   },
   "_source": "git://github.com/vanntomm/vis-component.git",
-  "_target": "master",
-  "_originalSource": "vanntomm/vis-component",
+  "_target": "^0.2.1",
+  "_originalSource": "vis-component",
   "_direct": true
 }

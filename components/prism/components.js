@@ -29,6 +29,10 @@ var components = {
 		"prism-coy": {
 			"title": "Coy",
 			"owner": "tshedor"
+		},
+		"prism-solarizedlight": {
+			"title": "Solarized Light",
+			"owner": "hectormatos2011 "
 		}
 	},
 	"languages": {
@@ -77,6 +81,10 @@ var components = {
 		},
 		"applescript": {
 			"title": "AppleScript",
+			"owner": "Golmote"
+		},
+		"asciidoc": {
+			"title": "AsciiDoc",
 			"owner": "Golmote"
 		},
 		"aspnet": {
@@ -219,9 +227,18 @@ var components = {
 			"title": "Haskell",
 			"owner": "bholst"
 		},
+		"haxe": {
+			"title": "Haxe",
+			"require": "clike",
+			"owner": "Golmote"
+		},
 		"http": {
 			"title": "HTTP",
 			"owner": "danielgtaylor"
+		},
+		"icon": {
+			"title": "Icon",
+			"owner": "Golmote"
 		},
 		"inform7": {
 			"title": "Inform 7",
@@ -245,6 +262,10 @@ var components = {
 			"require": "clike",
 			"owner": "sherblot"
 		},
+		"json": {
+			"title": "JSON",
+			"owner": "CupOfTea696"
+		},
 		"julia": {
 			"title": "Julia",
 			"owner": "cdagnino"
@@ -252,6 +273,11 @@ var components = {
 		"keyman": {
 			"title": "Keyman",
 			"owner": "mcdurdin"
+		},
+		"kotlin": {
+			"title": "Kotlin",
+			"require": "clike",
+			"owner": "Golmote"
 		},
 		"latex": {
 			"title": "LaTeX",
@@ -264,6 +290,10 @@ var components = {
 		},
 		"lolcode": {
 			"title": "LOLCODE",
+			"owner": "Golmote"
+		},
+		"lua": {
+			"title": "Lua",
 			"owner": "Golmote"
 		},
 		"makefile": {
@@ -304,6 +334,10 @@ var components = {
 			"title": "Nim",
 			"owner": "Golmote"
 		},
+		"nix": {
+			"title": "Nix",
+			"owner": "Golmote"
+		},
 		"nsis": {
 			"title": "NSIS",
 			"owner": "idleberg"
@@ -315,6 +349,19 @@ var components = {
 		},
 		"ocaml": {
 			"title": "OCaml",
+			"owner": "Golmote"
+		},
+		"oz": {
+			"title": "Oz",
+			"owner": "Golmote"
+		},
+		"parigp": {
+			"title": "PARI/GP",
+			"owner": "Golmote"
+		},
+		"parser": {
+			"title": "Parser",
+			"require": "markup",
 			"owner": "Golmote"
 		},
 		"pascal": {
@@ -346,6 +393,10 @@ var components = {
 		},
 		"prolog": {
 			"title": "Prolog",
+			"owner": "Golmote"
+		},
+		"puppet": {
+			"title": "Puppet",
 			"owner": "Golmote"
 		},
 		"pure": {
@@ -381,6 +432,10 @@ var components = {
 		"rip": {
 			"title": "Rip",
 			"owner": "ravinggenius"
+		},
+		"roboconf": {
+			"title": "Roboconf",
+			"owner": "Golmote"
 		},
 		"ruby": {
 			"title": "Ruby",
@@ -532,6 +587,16 @@ var components = {
 			"require": "previewer-base",
 			"owner": "Golmote"
 		},
+		"previewer-time": {
+			"title": "Previewer: Time",
+			"require": "previewer-base",
+			"owner": "Golmote"
+		},
+		"previewer-angle": {
+			"title": "Previewer: Angle",
+			"require": "previewer-base",
+			"owner": "Golmote"
+		},
 		"autoloader": {
 			"title": "Autoloader",
 			"owner": "Golmote",
@@ -541,6 +606,10 @@ var components = {
 			"title": "Keep Markup",
 			"owner": "Golmote",
 			"noCSS": true
+		},
+		"command-line": {
+			"title": "Command Line",
+			"owner": "chriswells0"
 		}
 	}
 };

@@ -1,11 +1,11 @@
 {
   "name": "vis-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Thomas Herndlbauer"
   ],
   "description": "A vis.js network component",
-  "main": "vis-element.html",
+  "main": "vis-component.html",
   "moduleType": [],
   "keywords": [
     "vis",
@@ -23,10 +23,15 @@
   ],
   "dependencies": {
     "polymer": "~1.1.5",
-    "vis": "~4.9.0"
+    "vis": "~4.9.0",
+    "vis-component": "^0.2.1"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
     "web-component-tester": "*"
+  },
+  "resolutions": {
+    "polymer": "^1.2.1",
+    "vis": "^4.11.0"
   }
 }
